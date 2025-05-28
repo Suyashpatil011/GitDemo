@@ -14,6 +14,8 @@ public class UniqueArray {
 			{
 				al.add(arr[i]);
 				k++;
+				
+				//new
 
 				//if item is not added to the al list the we adding item & incrementing the remp to 1 from 0
 				for (int j = i + 1; j < arr.length; j++) 
