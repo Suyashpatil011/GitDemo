@@ -33,6 +33,10 @@ public class AbstractComponents {
 	@FindBy(css="[routerlink*='order']")
 	WebElement gotoorder;
 	
+	
+	
+	
+	
 
 	public void WaitForElementsToAppear(By findBy)
 	{
