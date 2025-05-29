@@ -1,39 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-27T11:53:42 IST" name="Suite" finished-at="2025-05-27T11:54:18 IST" duration-ms="36031">
+  <suite started-at="2025-05-29T10:44:03 IST" name="Default suite" finished-at="2025-05-29T10:44:32 IST" duration-ms="29590">
     <groups>
-      <group name="ErrorHandling">
-        <method signature="ErrorValidation.submitorder()[pri:0, instance:Apauskar.Tests.ErrorValidation@48e1f6c7]" name="submitorder" class="Apauskar.Tests.ErrorValidation"/>
-      </group> <!-- ErrorHandling -->
       <group name="Purchase">
         <method signature="StandAloneTest.Submitorder(java.util.HashMap)[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" name="Submitorder" class="Apauskar.Tests.StandAloneTest"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2025-05-27T11:53:42 IST" name="Error Validation " finished-at="2025-05-27T11:53:57 IST" duration-ms="15043">
-      <class name="Apauskar.Tests.ErrorValidation">
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Apauskar.Tests.ErrorValidation@48e1f6c7]" started-at="2025-05-27T11:53:42 IST" name="LaunchApplication" finished-at="2025-05-27T11:53:55 IST" duration-ms="13122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchApplication -->
-        <test-method signature="submitorder()[pri:0, instance:Apauskar.Tests.ErrorValidation@48e1f6c7]" started-at="2025-05-27T11:53:55 IST" name="submitorder" finished-at="2025-05-27T11:53:56 IST" duration-ms="1391" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- submitorder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Apauskar.Tests.ErrorValidation@48e1f6c7]" started-at="2025-05-27T11:53:56 IST" name="tearDown" finished-at="2025-05-27T11:53:57 IST" duration-ms="412" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- Apauskar.Tests.ErrorValidation -->
-    </test> <!-- Error Validation  -->
-    <test started-at="2025-05-27T11:53:42 IST" name="Submit Order" finished-at="2025-05-27T11:54:18 IST" duration-ms="36031">
+    <test started-at="2025-05-29T10:44:03 IST" name="Default test" finished-at="2025-05-29T10:44:32 IST" duration-ms="29590">
       <class name="Apauskar.Tests.StandAloneTest">
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-27T11:53:42 IST" name="LaunchApplication" finished-at="2025-05-27T11:53:55 IST" duration-ms="13456" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-29T10:44:03 IST" name="LaunchApplication" finished-at="2025-05-29T10:44:16 IST" duration-ms="13061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method signature="Submitorder(java.util.HashMap)[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-27T11:53:55 IST" name="Submitorder" data-provider="getData" finished-at="2025-05-27T11:54:00 IST" duration-ms="4780" status="PASS">
+        <test-method signature="Submitorder(java.util.HashMap)[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-29T10:44:16 IST" name="Submitorder" data-provider="getData" finished-at="2025-05-29T10:44:20 IST" duration-ms="3718" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,15 +25,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Submitorder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-27T11:54:00 IST" name="tearDown" finished-at="2025-05-27T11:54:00 IST" duration-ms="300" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-29T10:44:20 IST" name="tearDown" finished-at="2025-05-29T10:44:20 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-27T11:54:00 IST" name="LaunchApplication" finished-at="2025-05-27T11:54:05 IST" duration-ms="4535" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-29T10:44:20 IST" name="LaunchApplication" finished-at="2025-05-29T10:44:22 IST" duration-ms="2161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method signature="Submitorder(java.util.HashMap)[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-27T11:54:05 IST" name="Submitorder" data-provider="getData" finished-at="2025-05-27T11:54:11 IST" duration-ms="6200" status="PASS">
+        <test-method signature="Submitorder(java.util.HashMap)[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-29T10:44:22 IST" name="Submitorder" data-provider="getData" finished-at="2025-05-29T10:44:26 IST" duration-ms="3794" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,23 +44,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Submitorder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-27T11:54:11 IST" name="tearDown" finished-at="2025-05-27T11:54:11 IST" duration-ms="382" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-29T10:44:26 IST" name="tearDown" finished-at="2025-05-29T10:44:26 IST" duration-ms="685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-27T11:54:11 IST" name="LaunchApplication" finished-at="2025-05-27T11:54:16 IST" duration-ms="4594" status="PASS">
+        <test-method is-config="true" signature="LaunchApplication()[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-29T10:44:26 IST" name="LaunchApplication" finished-at="2025-05-29T10:44:31 IST" duration-ms="4366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchApplication -->
-        <test-method signature="OrderHistoryTest()[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-27T11:54:16 IST" name="OrderHistoryTest" finished-at="2025-05-27T11:54:18 IST" depends-on-methods="Apauskar.Tests.StandAloneTest.Submitorder" duration-ms="1441" status="PASS">
+        <test-method signature="OrderHistoryTest()[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-29T10:44:31 IST" name="OrderHistoryTest" finished-at="2025-05-29T10:44:32 IST" depends-on-methods="Apauskar.Tests.StandAloneTest.Submitorder" duration-ms="1053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OrderHistoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-27T11:54:18 IST" name="tearDown" finished-at="2025-05-27T11:54:18 IST" duration-ms="231" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Apauskar.Tests.StandAloneTest@4b013c76]" started-at="2025-05-29T10:44:32 IST" name="tearDown" finished-at="2025-05-29T10:44:32 IST" duration-ms="473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Apauskar.Tests.StandAloneTest -->
-    </test> <!-- Submit Order -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
