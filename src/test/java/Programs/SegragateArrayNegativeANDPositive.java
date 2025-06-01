@@ -43,9 +43,9 @@ public class SegragateArrayNegativeANDPositive {
     }
 
     System.out.println("\nNew Sorted Array list is : ");
-    for (int i1 = 0; i1< tem.length; i1++)
+    for (int i = 0; i< tem.length; i++)
 	{
-    	System.out.print(tem[i1] + ",");	
+    	System.out.print(tem[i] + ",");	
 	}
   }
 }

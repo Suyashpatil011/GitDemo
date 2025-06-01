@@ -5,7 +5,8 @@ import java.util.Map;
 
 public class DuplicateCharacterinArray {
     public static void main(String[] args) {
-    		String str = "akshay pauskar";
+    		String str = "AkshAy Pauskar";
+    		str = str.toLowerCase();
     		HashMap<Character,  Integer> map = new HashMap<>();
     		
     		 for(char c : str.toCharArray())

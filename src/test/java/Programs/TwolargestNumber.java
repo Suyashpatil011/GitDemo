@@ -5,9 +5,9 @@ public class TwolargestNumber {
 	public static void main(String[] args)
 	{
 		
-	int arr[] = {38,50,5,34,4,35,20};
-	int max1 =0;
-	int max2 =0;
+	int arr[] = {38,50,60,34,4,35,20};
+	int max1 ;
+	int max2 ;
 	
 	if(arr[0]>arr[1] )
 	{
@@ -26,7 +26,7 @@ public class TwolargestNumber {
 			 max2 = max1;
 			 max1 = arr[i];
 			
-		} else if (arr[i]<max2)
+		} else if (arr[i]>max2)
 		{
 			max2 = arr[i];
 		}
@@ -34,7 +34,7 @@ public class TwolargestNumber {
 	}
 	
 	System.out.println("Second Max number :" +max2);
-	System.out.println("Smallest Max number :" +max1);
+	System.out.println("lar Max number :" +max1);
 	
 
 }
