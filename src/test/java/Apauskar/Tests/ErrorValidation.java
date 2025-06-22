@@ -14,6 +14,16 @@ public class ErrorValidation extends BaseTest {
 	@Test(groups = {"ErrorHandling"})
 	public void submitorder() throws InterruptedException, IOException
 	{
+		
+
+        String path = System.getProperty("user.dir") + "//reports/index.html";
+        ExtentSparkReporter reporter = new ExtentSparkReporter(path);
+        reporter.config().setReportName("WebAutomationResult");
+        reporter.config().setDocumentTitle("MyFirstDocument");
+        extend.attachReporter(reporter);
+        
+        
+        
 	
 		String productName = "ZARA COAT 3";
 		//Lunching Application 

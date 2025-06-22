@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Apauskar.Tests.ErrorValidation">
+      <class name="Apauskar.Tests.StandAloneTest">
         <methods>
+          <include name="Submitorder"/>
+          <include name="OrderHistoryTest"/>
           <include name="LaunchApplication"/>
           <include name="tearDown"/>
-          <include name="submitorder"/>
         </methods>
-      </class> <!-- Apauskar.Tests.ErrorValidation -->
+      </class> <!-- Apauskar.Tests.StandAloneTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

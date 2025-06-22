@@ -25,7 +25,7 @@ public class BaseTest {
 	{
 
 		Properties prop = new Properties();
-		FileInputStream file = new FileInputStream("C:\\Users\\apauskar\\OneDrive - Capgemini\\Desktop\\Work stuff\\Selenium\\SeleniumFramework\\src\\test\\java\\Apauskar\\Resources\\GlobalData.properties");
+		FileInputStream file = new FileInputStream("C:\\Users\\suypatil\\Desktop\\Selenium\\New folder\\selenium\\src\\test\\java\\Apauskar\\Resources\\GlobalData.properties");
 		//user.dir = C:\Users\apauskar\OneDrive - Capgemini\Desktop\Work stuff\Selenium\SeleniumFramework
 		prop.load(file);
 		String browserName = prop.getProperty("browser");
