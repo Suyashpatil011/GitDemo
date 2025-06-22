@@ -2,6 +2,6 @@
 public class Suyash {
 	
 	
-	System.out.println{" Suyash1008")
+	System.out.println{" Suyash108")
 }
 }
