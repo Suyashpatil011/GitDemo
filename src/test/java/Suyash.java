@@ -2,7 +2,7 @@
 public class Suyash {
 	
 	
-	System.out.println{"I Love Yogita so much ")
+	System.out.println{" Suyash Love Yogita so much ")
 
 }
 }
